@@ -14,7 +14,7 @@ const StudentForm = () => {
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
-  const URL = "http://localhost:3001";
+  const URL = "https://learning-management-backend.vercel.app";
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {

@@ -14,7 +14,7 @@ import {
 
 const StudentList = ({ fetch, setfetch }) => {
   const [students, setStudents] = useState([]);
-  const URL = "http://localhost:3001";
+  const URL = "https://learning-management-backend.vercel.app";
   useEffect(() => {
     const fetchStudents = async () => {
       try {
